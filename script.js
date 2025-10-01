@@ -1,16 +1,17 @@
 // Error 1:
 let message = 'Welcome to the debugging exercise!';
-console.log(mesage); 
+console.log(message); 
 
 // Error 2: 
-let button = document.querySelector('.actionButton'); 
-button.addEventListener('click', eventHandler); 
-
-// Error 3: 
 function eventHandler() {
   console.log('Button clicked');
   displayOutput();
 }
+let button = document.querySelector('#actionButton')
+button.addEventListener('click', eventHandler); 
+
+
+// Error 3: 
 
 // Error 4: 
 function displayOutput() {
