@@ -54,24 +54,24 @@ console.log(importantData);
 //tryToCallFunction();
 
 // Error 13:
-let user = { namee: "Alice" };
+let user = { name: "Alice" };
 console.log(user.name);
 
 // Error 14:
 let someNumber = 123;
-console.log(someNumber.toUpperCase());
+console.log(someNumber);
 
 // Error 15:
 let greeting = "Hello, world!";
 
 // Error 16:
-for (let i = 0; i < 5; i++);
+for (let i = 0; i < 5; i++)
 {
   console.log(i);
 }
 
 // Error 17:
-let five = "5";
+let five = 5;
 if (five === 5) {
   console.log("Five is equal to 5"); // This one should be logged
 } else {
