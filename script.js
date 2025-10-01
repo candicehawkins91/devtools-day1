@@ -43,15 +43,15 @@ console.log(nullVar);
 
 // Error 10:
 let caseSensitiveVar = "Case matters";
-console.log(CaseSensitiveVar);
+console.log(caseSensitiveVaraseSensitiveVar);
 
 // Error 11:
 let importantData =
   "This string must be logged to the console. It's important!";
-console.log("importantData");
+console.log(importantData);
 
 // Error 12:
-tryToCallFunction();
+//tryToCallFunction();
 
 // Error 13:
 let user = { namee: "Alice" };
